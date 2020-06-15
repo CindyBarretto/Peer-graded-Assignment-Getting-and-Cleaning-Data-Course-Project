@@ -1,7 +1,10 @@
 |title	output|Code Book for Tidy Dataset|
 --------------|--------------------------|
 |output       |html_document             |
+
+
 Description of variables:
+
 [1] Activity: Describes the activity done by subjects.
 WALKING
 WALKING_UPSTAIRS
