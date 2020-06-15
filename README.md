@@ -5,7 +5,7 @@ This repo was created to finish the assignment for week 4 of Getting and Cleanin
 2 Second, download the R source code into your R working directory.
 3 Finally, execute R source code to generate tidy data file.
 
-==================================================================================================
+=====================================================================
 The Repository contains the following files:
 
 1.README.md
@@ -24,7 +24,7 @@ Finally, the final dataset is created by grouping observations based on Activity
 ----------------
 This is the codebook of the Tidy dataset which describes its contents.
 
-=====================================================================================================
+========================================================================
 # TIDY DATASET
 The Tidy dataset contains 180 observations (rows) of 68 variables (columns). It is the subset of "Human Activity Recognition Using Smartphones" Dataset. 
 
