@@ -59,8 +59,27 @@ mean<-features[grep("mean()",features$V2,fixed=TRUE),]
 final<-finaldataset[,colnames(finaldataset) %in% std$V2|colnames(finaldataset) %in% mean$V2 ]
 final<-cbind(finaldataset[,1:2],final)
 
+
+#Make descriptive label
+names(final) <- gsub('act', 'Act', names(final))
+names(final) <- gsub('sub', 'Sub', names(final))
+names(final) <- gsub('std', 'Std', names(final))
+names(final) <- gsub('mean', 'Mean', names(final))
+names(final) <- gsub('Acc', 'Accelerometer', names(final))
+names(final) <- gsub('Gyro', 'Gyroscope', names(final))
+names(final) <- gsub('Mag', 'Magnitude', names(final))
+names(final) <- gsub('BodyBody', 'Body', names(final))
+# Delete the () from label
+names(final) <- gsub('\\(\\)', '', names(final))
+
+#change t in the begining of label to Time
+names(final) <- gsub('^t', 'Time', names(final))
+
+#change f in the begining of label to Freq
+names(final) <- gsub('^f', 'Freq', names(final))
+
 #Tidy dataset with the average of each variable for each activity and each subject
 library(dplyr)
-tidydata<-final%>%group_by(activityId,Subject)%>%summarise_all(funs(mean))
+tidydata<-final%>%group_by(ActivityId,Subject)%>%summarise_all(funs(mean))
 names(tidydata)
 write.table(tidydata,file="TidyData.txt",row.names = FALSE)
