@@ -6,6 +6,7 @@ This repo was created to finish the assignment for week 4 of Getting and Cleanin
 3 Finally, execute R source code to generate tidy data file.
 
 =====================================================================
+
 The Repository contains the following files:
 
 1.README.md
