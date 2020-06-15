@@ -18,7 +18,7 @@ There are total 30 subjects numbered from 1 to 30.
 
 [Columns [3] to [68] contain average value of that feature(column name) for each activity and each subject. Prefix 't' denotes 'time domain signals' and 'f' denotes 'frequency domain signals'. '-X','-Y' and '-Z' are used to denote 3 axial signals in the X, Y and Z directions respectively.]
 
--[3]: tBodyAcc-mean()-X
+|[3] tBodyAcc-mean()-X
 [4] tBodyAcc-mean()-Y
 [5] tBodyAcc-mean()-Z
 [6] tBodyAcc-std()-X
@@ -34,7 +34,8 @@ There are total 30 subjects numbered from 1 to 30.
 [16] tBodyAccJerk-mean()-Y
 [17] tBodyAccJerk-mean()-Z
 [18] tBodyAccJerk-std()-X
-[19] tBodyAccJerk-std()-Y [20] tBodyAccJerk-std()-Z
+[19] tBodyAccJerk-std()-Y 
+[20] tBodyAccJerk-std()-Z
 [21] tBodyGyro-mean()-X
 [22] tBodyGyro-mean()-Y
 [23] tBodyGyro-mean()-Z
@@ -82,7 +83,8 @@ There are total 30 subjects numbered from 1 to 30.
 [65] fBodyBodyGyroMag-mean()
 [66] fBodyBodyGyroMag-std()
 [67] fBodyBodyGyroJerkMag-mean()
-[68] fBodyBodyGyroJerkMag-std()
+[68] fBodyBodyGyroJerkMag-std() |
+|--------------------------------|
 
 ***Explanation of each file***
 
