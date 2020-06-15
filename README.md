@@ -1,2 +1,4 @@
 # Peer-graded-Assignment-Getting-and-Cleaning-Data-Course-Project
-This is my Peer-graded Assignment: Getting and Cleaning Data Course Project which is a course in John Hopkins specialization
+This repo was created to finish the assignment for week 4 of Getting and Cleaning Data Coursera course.
+
+ 
