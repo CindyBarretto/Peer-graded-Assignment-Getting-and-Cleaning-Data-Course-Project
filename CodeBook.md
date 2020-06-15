@@ -18,7 +18,7 @@ There are total 30 subjects numbered from 1 to 30.
 
 [Columns [3] to [68] contain average value of that feature(column name) for each activity and each subject. Prefix 't' denotes 'time domain signals' and 'f' denotes 'frequency domain signals'. '-X','-Y' and '-Z' are used to denote 3 axial signals in the X, Y and Z directions respectively.]
 
-[3] tBodyAcc-mean()-X
+-[3]: tBodyAcc-mean()-X
 [4] tBodyAcc-mean()-Y
 [5] tBodyAcc-mean()-Z
 [6] tBodyAcc-std()-X
